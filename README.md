@@ -30,15 +30,21 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - USB-UART Converter / DB9 Cable
 ============================================================================================
 
-💻 Software Used
+### 💻 Software Used
 
--🖥 Keil μVision
+-🖥 Keil μVision 
+
 -🔥 Flash Magic
+
 -⚙ Embedded C
+
 -📡 UART Communication
+
 -🔄 I2C Protocol
 
 ===========================================================================================
+
+📂 Project Structure
 
 ```
 INDUSGUARD
@@ -151,9 +157,13 @@ Alert Message Sent
 ##🔐 Security Features
 
 ✅ Password Protected Access 🔑
+
 ✅ Authorized Mobile Number Verification 📱
+
 ✅ EEPROM-Based Secure Storage 💾
+
 ✅ Wrong Password Detection 🚫
+
 ✅ System Lock After Multiple Incorrect Attempts 🔒
 
 ================================================================
@@ -165,44 +175,73 @@ Alert Message Sent
 - String Display
 - Integer Display
 
-###🌡 DHT11 Driver
+### 🌡 DHT11 Driver
 
 -Temperature Reading   
 -Humidity Reading  
 
-📱 GSM Module
+### 📱 GSM Module
 
 -SMS Send
 -SMS Receive
 -AT Commands
 
-💾 EEPROM Interface
+### 💾 EEPROM Interface
 
 -Byte Write
 -Byte Read
 -Page Write
 -Sequential Read
 
-⌨️ Keypad Interface
+### ⌨️ Keypad Interface
 
 -Password Entry
 -Menu Navigation
 
-⏰ RTC Module
+### ⏰ RTC Module
 
 -Date and Time Stamp
 
-📡 UART Interrupt
+### 📡 UART Interrupt
 
 -Interrupt Driven Communication
 
-🔄 I2C Communication
+###🔄 I2C Communication
 
 -EEPROM Communication
 
-🚨 External Interrupt
+### 🚨 External Interrupt
 
 -Local Configuration Mode
+
+=======================================================================================
+### 🎯 Applications
+
+🏭 Industrial Monitoring
+
+⚙ Machine Safety Systems
+
+🌡 Temperature Monitoring
+
+💧 Humidity Monitoring
+
+🚨 Fault Detection Systems
+
+📱 Remote Alert Systems
+
+🏢 Smart Factory Automation
+
+=============================================================
+
+👩‍💻 Project Presented By
+
+### ALIYA BEGUM
+
+B.Tech Electronics and Communication Engineering (ECE)
+
+Vector India Major Project
+
+Embedded Systems | LPC2148 | I2C
 
 
 
