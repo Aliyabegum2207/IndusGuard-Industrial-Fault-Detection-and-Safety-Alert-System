@@ -31,11 +31,13 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 ============================================================================================
 
 💻 Software Used
+
 -🖥 Keil μVision
 -🔥 Flash Magic
 -⚙ Embedded C
 -📡 UART Communication
 -🔄 I2C Protocol
+
 ===========================================================================================
 
 ```
@@ -157,16 +159,16 @@ Alert Message Sent
 ================================================================
 
 🚀 Modules Implemented
-📟 LCD Interface
+### 📟 LCD Interface
 
--Character Display
--String Display
--Integer Display
+- Character Display
+- String Display
+- Integer Display
 
-🌡 DHT11 Driver
+###🌡 DHT11 Driver
 
--Temperature Reading
--Humidity Reading
+-Temperature Reading   
+-Humidity Reading  
 
 📱 GSM Module
 
