@@ -16,13 +16,15 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - 📩 Remote Configuration through SMS
 - ⚡ Local Configuration using Keypad & External Interrupt
 ============================================================================================================================================
-## 🛠️ Hardware Components
-
+## 🛠️ **Hardware Components**
+- LPC2148 ARM7 Microcontroller
+- DHT11 Temperature & Humidity Sensor
+- LCD Display
+- GSM Module (M660A)
+- AT24C256 EEPROM
+- 4×4 Matrix Keypad
+- LEDs / Buzzer
+- Push Button Switch
+- USB-UART Converter / DB9 Cable
 ==========================================================================================================================================
-
-Project/
-│
-├── projectmain.c
-├── lcd.c / lcd.h
-├── keypad.c / keypad.h
 
