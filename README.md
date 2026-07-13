@@ -182,42 +182,42 @@ Alert Message Sent
 
 ### 🌡 DHT11 Driver
 
--Temperature Reading   
--Humidity Reading  
+- Temperature Reading   
+- Humidity Reading  
 
 ### 📱 GSM Module
 
--SMS Send
--SMS Receive
--AT Commands
+- SMS Send
+- SMS Receive
+- AT Commands
 
 ### 💾 EEPROM Interface
 
--Byte Write
--Byte Read
--Page Write
--Sequential Read
+- Byte Write
+- Byte Read
+- Page Write
+- Sequential Read
 
 ### ⌨️ Keypad Interface
 
--Password Entry
--Menu Navigation
+- Password Entry
+- Menu Navigation
 
 ### ⏰ RTC Module
 
--Date and Time Stamp
+- Date and Time Stamp
 
 ### 📡 UART Interrupt
 
--Interrupt Driven Communication
+- Interrupt Driven Communication
 
 ###🔄 I2C Communication
 
--EEPROM Communication
+- EEPROM Communication
 
 ### 🚨 External Interrupt
 
--Local Configuration Mode
+- Local Configuration Mode
 
 ===================================================
 
