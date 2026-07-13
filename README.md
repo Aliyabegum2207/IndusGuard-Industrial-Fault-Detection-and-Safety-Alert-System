@@ -27,9 +27,10 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - Push Button Switch
 - USB-UART Converter / DB9 Cable
 ==========================================================================================================================================
+
 INDUSGUARD
 │
-├── main.c
+├── main.c\n
 ├── pro_main.c
 ├── dummy_pro_main.c
 │
