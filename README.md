@@ -2,7 +2,8 @@
 
 ## 📌 Overview:
 INDUSGUARD is an Embedded Systems project designed to improve industrial safety by continuously monitoring environmental conditions such as **temperature** and **humidity**. The system detects abnormal conditions in real time and immediately alerts the authorized user through **SMS** using a GSM module, helping prevent equipment damage, production loss, and fire hazards.
-============================================================================================================================================
+
+=======================================================================
 
 ## 🚀 Features:
 
@@ -16,7 +17,8 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - 🔔 Fault Indication using LED/Buzzer
 - 📩 Remote Configuration through SMS
 - ⚡ Local Configuration using Keypad & External Interrupt
-========================================================================
+- 
+======================================================
 
 ## 🛠️ **Hardware Components**
 - LPC2148 ARM7 Microcontroller
@@ -28,7 +30,8 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - LEDs / Buzzer
 - Push Button Switch
 - USB-UART Converter / DB9 Cable
-============================================================================================
+- 
+==============================================================
 
 ### 💻 Software Used
 
@@ -42,7 +45,7 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 
 -🔄 I2C Protocol
 
-===========================================================================================
+===================================================
 
 📂 Project Structure
 
@@ -140,6 +143,7 @@ Alert Message Sent
 ==================================================================
 
 📱 SMS Commands
+
 🌡 Change Temperature Threshold
 ```
 0786T38$
@@ -169,6 +173,7 @@ Alert Message Sent
 ================================================================
 
 🚀 Modules Implemented
+
 ### 📟 LCD Interface
 
 - Character Display
@@ -214,7 +219,8 @@ Alert Message Sent
 
 -Local Configuration Mode
 
-=======================================================================================
+===================================================
+
 ### 🎯 Applications
 
 🏭 Industrial Monitoring
