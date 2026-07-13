@@ -27,6 +27,7 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - Push Button Switch
 - USB-UART Converter / DB9 Cable
 ==========================================================================================================================================
+
 💻 Software Used
 -🖥 Keil μVision
 -🔥 Flash Magic
@@ -84,6 +85,7 @@ INDUSGUARD
 └── README.md
 ```
 ===================================================================================================================
+
 ⚙️ Working Principle
 ```
 DHT11 Sensor
@@ -103,23 +105,42 @@ Fault Detection
 Alert Message Sent
 ```
 =======================================================================================================================
+
 🏗️ Block Diagram
 
 <img width="777" height="729" alt="image" src="https://github.com/user-attachments/assets/e5734185-75cd-49bd-b2da-5b3676ffacfa" />
 
 ======================================================================================================
+
 🔌 Peripheral Interfaces
 ```
-| Peripheral | Interface |
-|------------|-----------|
-| 📱 GSM Module (M660A) | UART |
-| 💾 AT24C256 EEPROM | I2C |
-| 🌡️ DHT11 Sensor | GPIO |
-| 📟 LCD Display | GPIO |
-| ⌨️ 4×4 Matrix Keypad | GPIO |
-| ⏰ RTC | Internal RTC |
-| 🔘 Switch | External Interrupt (EINT0) |
++--------------------------+----------------------------+
+| Peripheral               | Interface                  |
++--------------------------+----------------------------+
+| GSM Module (M660A)       | UART                       |
+| AT24C256 EEPROM          | I2C                        |
+| DHT11 Sensor             | GPIO                       |
+| LCD Display              | GPIO                       |
+| 4×4 Matrix Keypad        | GPIO                       |
+| RTC                      | Internal RTC              |
+| Switch                   | External Interrupt (EINT0) |
++--------------------------+----------------------------+
 ```
-====================================================================================================
-📱 SMS Commands
+===============================================================================================
+
+##📱 SMS Commands
+🌡 Change Temperature Threshold
+```
+0786T38$
+```
+📞 Update Mobile Number
+```
+0786M9876543210$
+```
+📊 Request Sensor Information
+```
+0786I$
+```
+🔐 Security Features
+
 
