@@ -1,9 +1,8 @@
-## 🏭 **INDUSGUARD – Industrial Fault Detection and Safety Alert System:**
+## 🏭 **INDUSGUARD – Industrial Fault Detection and Safety Alert System**
 
 ## 📌 **Overview:**
 INDUSGUARD is an Embedded Systems project designed to improve industrial safety by continuously monitoring environmental conditions such as **temperature** and **humidity**. The system detects abnormal conditions in real time and immediately alerts the authorized user through **SMS** using a GSM module, helping prevent equipment damage, production loss, and fire hazards.
 
-=======================================================================
 
 ## 🚀 **Features:**
 
@@ -17,7 +16,7 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - 🔔 Fault Indication using LED/Buzzer
 - 📩 Remote Configuration through SMS
 - ⚡ Local Configuration using Keypad & External Interrupt
-======================================================
+
 
 ## 🛠️ **Hardware Components:**
 - LPC2148 ARM7 Microcontroller
@@ -29,7 +28,7 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - LEDs / Buzzer
 - Push Button Switch
 - USB-UART Converter / DB9 Cable
-=================================================
+
 
 ## 💻 **Software Used:**
 
@@ -43,7 +42,6 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 
 -🔄 I2C Protocol
 
-===================================================
 
 ## 📂 **Project Structure**
 
@@ -51,12 +49,9 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 INDUSGUARD
 │
 ├── main.c
-├── pro_main.c
-├── dummy_pro_main.c
 │
 ├── lcd.c
 ├── lcd.h
-├── lcd1.c
 │
 ├── delay.c
 ├── delay.h
@@ -96,7 +91,6 @@ INDUSGUARD
 │
 └── README.md
 ```
-=======================================================
 
 ## ⚙️ **Working Principle**
 ```
@@ -116,29 +110,29 @@ Fault Detection
       ▼
 Alert Message Sent
 ```
-=============================================
+
 
 ## 🏗️ **Block Diagram**
 
 <img width="777" height="729" alt="image" src="https://github.com/user-attachments/assets/e5734185-75cd-49bd-b2da-5b3676ffacfa" />
 
-=========================================
+
 
 ## 🔌 **Peripheral Interfaces**
-```
-+--------------------------+----------------------------+
-| Peripheral               | Interface                  |
-+--------------------------+----------------------------+
-| GSM Module (M660A)       | UART                       |
-| AT24C256 EEPROM          | I2C                        |
-| DHT11 Sensor             | GPIO                       |
-| LCD Display              | GPIO                       |
-| 4×4 Matrix Keypad        | GPIO                       |
-| RTC                      | Internal RTC              |
-| Switch                   | External Interrupt (EINT0) |
-+--------------------------+----------------------------+
-```
-===========================================
+
+
+| Peripheral         | Interface                  |
+| ------------------ | -------------------------- |
+| GSM Module (M660A) | UART                       |
+| AT24C256 EEPROM    | I2C                        |
+| DHT11 Sensor       | GPIO                       |
+| LCD Display        | GPIO                       |
+| 4×4 Matrix Keypad  | GPIO                       |
+| RTC                | Internal RTC               |
+| Switch             | External Interrupt (EINT0) |
+
+
+
 
 ## 📱 **SMS Commands**
 
@@ -154,7 +148,7 @@ Alert Message Sent
 ```
 0786I$
 ```
-================================================================
+
 
 ## 🔐 **Security Features**
 
@@ -168,7 +162,6 @@ Alert Message Sent
 
 ✅ System Lock After Multiple Incorrect Attempts 🔒
 
-================================================================
 
 ## 🚀 **Modules Implemented**
 
@@ -217,7 +210,6 @@ Alert Message Sent
 
 - Local Configuration Mode
 
-===================================================
 
 ## 🎯 **Applications:**
 
@@ -235,7 +227,7 @@ Alert Message Sent
 
 🏢 Smart Factory Automation
 
-========================================
+
 
 ## 👩‍💻 **Project Presented By**
 
