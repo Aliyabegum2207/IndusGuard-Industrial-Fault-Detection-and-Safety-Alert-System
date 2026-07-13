@@ -1,13 +1,13 @@
 🏭 INDUSGUARD - Industrial Fault Detection and Safety Alert System 🚨
 Platform Language Protocol Status
-📖 About
+📖 About:
 INDUSGUARD is an Embedded Systems project designed to provide real-time industrial fault detection and safety monitoring. The system continuously monitors environmental parameters and sends alert messages through GSM whenever abnormal conditions are detected.
 
 It is built around the LPC2148 ARM7 Microcontroller and uses DHT11, EEPROM, LCD, GSM Module, RTC, and Keypad for monitoring and secure user interaction.
 
-✨ Features
-🔹 Real-Time Temperature Monitoring 🌡️
-🔹 Humidity Monitoring 💧
+✨ Features:
+🔹 Real-Time Temperature Monitoring 🌡️.
+🔹 Humidity Monitoring 💧.
 🔹 GSM Based SMS Alert System 📱
 🔹 EEPROM Data Storage 💾
 🔹 Password Protected Access 🔐
