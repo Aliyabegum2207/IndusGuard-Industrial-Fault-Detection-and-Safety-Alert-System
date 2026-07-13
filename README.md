@@ -27,51 +27,16 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - Push Button Switch
 - USB-UART Converter / DB9 Cable
 ==========================================================================================================================================
-
-INDUSGUARD
+Project/
 │
-├── main.c\n
-├── pro_main.c
-├── dummy_pro_main.c
-│
-├── lcd.c
-├── lcd.h
-├── lcd1.c
-│
-├── delay.c
-├── delay.h
-│
-├── dht11.c
-├── dht11.h
-│
-├── GSM.c
-├── GSM.h
-│
-├── UART_INT.c
-├── UART_INT.h
-├── uart0.h
-│
-├── rtc.c
-├── rtc.h
-├── rtc_defines.h
-│
-├── i2c_peripheral.c
-├── i2c_eeprom.c
-├── i2c_eeprom.h
-├── i2c.h
-├── i2c_defines.h
-├── i2c_eeprom_defines.h
-│
-├── kpm.c
-├── kpm.h
-├── kpm_defines.h
-│
-├── edit.c
-├── edit.h
-│
-├── exint.c
-│
-├── defines.h
-├── types.h
-│
+├── projectmain.c
+├── lcd.c / lcd.h
+├── keypad.c / keypad.h
+├── uart.c / uart.h
+├── i2c.c / i2c.h
+├── delay.c / delay.h
+├── dht11.c / dht11.h
+├── eeprom.c / eeprom.h
+├── rtc.c / rtc.h
 └── README.md
+```
