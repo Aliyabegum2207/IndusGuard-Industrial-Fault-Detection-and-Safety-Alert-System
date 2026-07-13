@@ -19,15 +19,10 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 ## 🛠️ Hardware Components
 
 ==========================================================================================================================================
+
 Project/
 │
 ├── projectmain.c
 ├── lcd.c / lcd.h
 ├── keypad.c / keypad.h
-├── uart.c / uart.h
-├── i2c.c / i2c.h
-├── delay.c / delay.h
-├── dht11.c / dht11.h
-├── eeprom.c / eeprom.h
-├── rtc.c / rtc.h
-└── README.md
+
