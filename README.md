@@ -1,11 +1,11 @@
-# 🏭 INDUSGUARD – Industrial Fault Detection and Safety Alert System:
+# 🏭 **INDUSGUARD – Industrial Fault Detection and Safety Alert System:**
 
-## 📌 Overview:
+#### 📌 Overview:
 INDUSGUARD is an Embedded Systems project designed to improve industrial safety by continuously monitoring environmental conditions such as **temperature** and **humidity**. The system detects abnormal conditions in real time and immediately alerts the authorized user through **SMS** using a GSM module, helping prevent equipment damage, production loss, and fire hazards.
 
 =======================================================================
 
-## 🚀 Features:
+#### 🚀 Features:
 
 - 🌡️ Real-time Temperature Monitoring
 - 💧 Real-time Humidity Monitoring
@@ -17,10 +17,9 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - 🔔 Fault Indication using LED/Buzzer
 - 📩 Remote Configuration through SMS
 - ⚡ Local Configuration using Keypad & External Interrupt
-- 
 ======================================================
 
-## 🛠️ **Hardware Components**
+#### 🛠️ Hardware Components
 - LPC2148 ARM7 Microcontroller
 - DHT11 Temperature & Humidity Sensor
 - LCD Display
@@ -30,10 +29,9 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - LEDs / Buzzer
 - Push Button Switch
 - USB-UART Converter / DB9 Cable
-- 
-==============================================================
+=================================================
 
-### 💻 Software Used
+#### 💻 Software Used
 
 -🖥 Keil μVision 
 
@@ -47,7 +45,7 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 
 ===================================================
 
-📂 Project Structure
+#### 📂 Project Structure
 
 ```
 INDUSGUARD
@@ -98,9 +96,9 @@ INDUSGUARD
 │
 └── README.md
 ```
-===================================================================
+=======================================================
 
-⚙️ Working Principle
+#### ⚙️ Working Principle
 ```
 DHT11 Sensor
       │
@@ -118,15 +116,15 @@ Fault Detection
       ▼
 Alert Message Sent
 ```
-=====================================================================================
+=============================================
 
-🏗️ Block Diagram
+#### 🏗️ Block Diagram
 
 <img width="777" height="729" alt="image" src="https://github.com/user-attachments/assets/e5734185-75cd-49bd-b2da-5b3676ffacfa" />
 
-===============================================================================
+=========================================
 
-🔌 Peripheral Interfaces
+#### 🔌 Peripheral Interfaces
 ```
 +--------------------------+----------------------------+
 | Peripheral               | Interface                  |
@@ -140,9 +138,9 @@ Alert Message Sent
 | Switch                   | External Interrupt (EINT0) |
 +--------------------------+----------------------------+
 ```
-==================================================================
+===========================================
 
-📱 SMS Commands
+#### 📱 SMS Commands
 
 🌡 Change Temperature Threshold
 ```
@@ -158,7 +156,7 @@ Alert Message Sent
 ```
 ================================================================
 
-##🔐 Security Features
+#### 🔐 Security Features
 
 ✅ Password Protected Access 🔑
 
@@ -172,7 +170,7 @@ Alert Message Sent
 
 ================================================================
 
-🚀 Modules Implemented
+#### 🚀 Modules Implemented
 
 ### 📟 LCD Interface
 
@@ -211,7 +209,7 @@ Alert Message Sent
 
 - Interrupt Driven Communication
 
-###🔄 I2C Communication
+### 🔄 I2C Communication
 
 - EEPROM Communication
 
@@ -237,9 +235,9 @@ Alert Message Sent
 
 🏢 Smart Factory Automation
 
-=============================================================
+========================================
 
-👩‍💻 Project Presented By
+#### 👩‍💻 Project Presented By
 
 ### ALIYA BEGUM
 
