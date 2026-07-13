@@ -27,6 +27,13 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - Push Button Switch
 - USB-UART Converter / DB9 Cable
 ==========================================================================================================================================
+💻 Software Used
+-🖥 Keil μVision
+-🔥 Flash Magic
+-⚙ Embedded C
+-📡 UART Communication
+-🔄 I2C Protocol
+===========================================================================================================================================
 ```
 INDUSGUARD
 │
@@ -76,3 +83,42 @@ INDUSGUARD
 │
 └── README.md
 ```
+=============================================================================================================================================
+⚙️ Working Principle
+```
+DHT11 Sensor
+      │
+      ▼
+LPC2148 Microcontroller
+      │
+ ┌────┼────┬───────┐
+ ▼    ▼    ▼       ▼
+LCD EEPROM GSM    RTC
+Display Storage SMS Timestamp
+      │
+      ▼
+Fault Detection
+      │
+      ▼
+Alert Message Sent
+```
+===================================================================================================================================================
+🏗️ Block Diagram
+
+<img width="777" height="729" alt="image" src="https://github.com/user-attachments/assets/e5734185-75cd-49bd-b2da-5b3676ffacfa" />
+
+======================================================================================================================================================
+🔌 Peripheral Interfaces
+
+| Peripheral | Interface |
+|------------|-----------|
+| 📱 GSM Module (M660A) | UART |
+| 💾 AT24C256 EEPROM | I2C |
+| 🌡️ DHT11 Sensor | GPIO |
+| 📟 LCD Display | GPIO |
+| ⌨️ 4×4 Matrix Keypad | GPIO |
+| ⏰ RTC | Internal RTC |
+| 🔘 Switch | External Interrupt (EINT0) |
+========================================================================================================================================================
+📱 SMS Commands
+
