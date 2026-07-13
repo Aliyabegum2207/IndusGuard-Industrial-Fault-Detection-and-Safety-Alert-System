@@ -131,7 +131,7 @@ Alert Message Sent
 ```
 ==================================================================
 
-##📱 SMS Commands
+📱 SMS Commands
 🌡 Change Temperature Threshold
 ```
 0786T38$
@@ -145,46 +145,63 @@ Alert Message Sent
 0786I$
 ```
 ================================================================
+
 ##🔐 Security Features
 
 ✅ Password Protected Access 🔑
-
 ✅ Authorized Mobile Number Verification 📱
-
 ✅ EEPROM-Based Secure Storage 💾
-
 ✅ Wrong Password Detection 🚫
-
 ✅ System Lock After Multiple Incorrect Attempts 🔒
+
 ================================================================
+
 🚀 Modules Implemented
 📟 LCD Interface
+
 -Character Display
 -String Display
 -Integer Display
+
 🌡 DHT11 Driver
+
 -Temperature Reading
 -Humidity Reading
+
 📱 GSM Module
+
 -SMS Send
 -SMS Receive
 -AT Commands
+
 💾 EEPROM Interface
+
 -Byte Write
 -Byte Read
 -Page Write
 -Sequential Read
+
 ⌨️ Keypad Interface
+
 -Password Entry
 -Menu Navigation
+
 ⏰ RTC Module
+
 -Date and Time Stamp
+
 📡 UART Interrupt
+
 -Interrupt Driven Communication
+
 🔄 I2C Communication
+
 -EEPROM Communication
+
 🚨 External Interrupt
+
 -Local Configuration Mode
+
 
 
 
