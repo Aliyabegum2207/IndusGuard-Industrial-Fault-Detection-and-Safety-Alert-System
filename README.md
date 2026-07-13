@@ -3,6 +3,7 @@
 ## 📌 Overview:
 INDUSGUARD is an Embedded Systems project designed to improve industrial safety by continuously monitoring environmental conditions such as **temperature** and **humidity**. The system detects abnormal conditions in real time and immediately alerts the authorized user through **SMS** using a GSM module, helping prevent equipment damage, production loss, and fire hazards.
 ============================================================================================================================================
+
 ## 🚀 Features:
 
 - 🌡️ Real-time Temperature Monitoring
@@ -15,7 +16,8 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - 🔔 Fault Indication using LED/Buzzer
 - 📩 Remote Configuration through SMS
 - ⚡ Local Configuration using Keypad & External Interrupt
-============================================================================================================================================
+========================================================================
+
 ## 🛠️ **Hardware Components**
 - LPC2148 ARM7 Microcontroller
 - DHT11 Temperature & Humidity Sensor
@@ -26,7 +28,7 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 - LEDs / Buzzer
 - Push Button Switch
 - USB-UART Converter / DB9 Cable
-==========================================================================================================================================
+============================================================================================
 
 💻 Software Used
 -🖥 Keil μVision
@@ -34,7 +36,8 @@ INDUSGUARD is an Embedded Systems project designed to improve industrial safety 
 -⚙ Embedded C
 -📡 UART Communication
 -🔄 I2C Protocol
-===========================================================================================================================================
+===========================================================================================
+
 ```
 INDUSGUARD
 │
@@ -84,7 +87,7 @@ INDUSGUARD
 │
 └── README.md
 ```
-===================================================================================================================
+===================================================================
 
 ⚙️ Working Principle
 ```
@@ -104,13 +107,13 @@ Fault Detection
       ▼
 Alert Message Sent
 ```
-=======================================================================================================================
+=====================================================================================
 
 🏗️ Block Diagram
 
 <img width="777" height="729" alt="image" src="https://github.com/user-attachments/assets/e5734185-75cd-49bd-b2da-5b3676ffacfa" />
 
-======================================================================================================
+===============================================================================
 
 🔌 Peripheral Interfaces
 ```
@@ -126,7 +129,7 @@ Alert Message Sent
 | Switch                   | External Interrupt (EINT0) |
 +--------------------------+----------------------------+
 ```
-===============================================================================================
+==================================================================
 
 ##📱 SMS Commands
 🌡 Change Temperature Threshold
@@ -141,6 +144,48 @@ Alert Message Sent
 ```
 0786I$
 ```
-🔐 Security Features
+================================================================
+##🔐 Security Features
+
+✅ Password Protected Access 🔑
+
+✅ Authorized Mobile Number Verification 📱
+
+✅ EEPROM-Based Secure Storage 💾
+
+✅ Wrong Password Detection 🚫
+
+✅ System Lock After Multiple Incorrect Attempts 🔒
+================================================================
+🚀 Modules Implemented
+📟 LCD Interface
+-Character Display
+-String Display
+-Integer Display
+🌡 DHT11 Driver
+-Temperature Reading
+-Humidity Reading
+📱 GSM Module
+-SMS Send
+-SMS Receive
+-AT Commands
+💾 EEPROM Interface
+-Byte Write
+-Byte Read
+-Page Write
+-Sequential Read
+⌨️ Keypad Interface
+-Password Entry
+-Menu Navigation
+⏰ RTC Module
+-Date and Time Stamp
+📡 UART Interrupt
+-Interrupt Driven Communication
+🔄 I2C Communication
+-EEPROM Communication
+🚨 External Interrupt
+-Local Configuration Mode
+
+
 
 
